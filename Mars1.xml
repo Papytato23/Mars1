@@ -1,1 +1,16 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="10" x="101" y="-6">
+    <next>
+      <block type="controls_if" id="130" inline="false">
+        <value name="IF0">
+          <block type="sensor_button" id="147">
+            <field name="OBJECT">ENTER</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="movement_stop" id="211"></block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
