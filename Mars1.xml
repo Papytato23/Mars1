@@ -32,7 +32,7 @@
                               <block type="oled_drawnumber" id="575" inline="true">
                                 <value name="NUMBER">
                                   <block type="math_number" id="591">
-                                    <field name="NUM">200</field>
+                                    <field name="NUM">300</field>
                                   </block>
                                 </value>
                               </block>
