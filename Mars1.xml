@@ -8,7 +8,11 @@
           </block>
         </value>
         <statement name="DO0">
-          <block type="movement_stop" id="211"></block>
+          <block type="movement_stop" id="211">
+            <next>
+              <block type="movement_reverse" id="221"></block>
+            </next>
+          </block>
         </statement>
       </block>
     </next>
