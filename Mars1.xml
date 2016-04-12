@@ -6,26 +6,39 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="comment_comment" id="440">
-        <field name="TEXT">pokemon</field>
+      <block type="movement_forward" id="10">
         <next>
-          <block type="movement_forward" id="10">
+          <block type="robot_delay" id="388" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="395">
+                <field name="NUM">3948</field>
+              </block>
+            </value>
             <next>
-              <block type="robot_delay" id="388" inline="true">
-                <value name="DELAY">
-                  <block type="math_number" id="395">
-                    <field name="NUM">3948</field>
-                  </block>
-                </value>
+              <block type="movement_stutter" id="428">
                 <next>
-                  <block type="movement_stutter" id="428">
+                  <block type="robot_delay" id="431" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="438">
+                        <field name="NUM">3948</field>
+                      </block>
+                    </value>
                     <next>
-                      <block type="robot_delay" id="431" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="438">
-                            <field name="NUM">3948</field>
+                      <block type="oled_cleardisplay" id="545">
+                        <next>
+                          <block type="oled_drawtext" id="554">
+                            <field name="TEXT">pokemon</field>
+                            <next>
+                              <block type="oled_drawnumber" id="575" inline="true">
+                                <value name="NUMBER">
+                                  <block type="math_number" id="591">
+                                    <field name="NUM">233</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
                           </block>
-                        </value>
+                        </next>
                       </block>
                     </next>
                   </block>
