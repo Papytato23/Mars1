@@ -14,6 +14,9 @@
                 <field name="NUM">3948</field>
               </block>
             </value>
+            <next>
+              <block type="movement_reverse" id="418"></block>
+            </next>
           </block>
         </next>
       </block>
