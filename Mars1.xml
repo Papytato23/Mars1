@@ -1,46 +1,28 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="306" inline="true" x="-32" y="-26">
+  <block type="controls_repeat" id="1" inline="true" x="-32" y="-26">
     <value name="TIMES">
-      <block type="math_number" id="319">
+      <block type="math_number" id="2">
         <field name="NUM">2</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="10">
+      <block type="movement_forward" id="3">
         <next>
-          <block type="robot_delay" id="388" inline="true">
+          <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="395">
+              <block type="math_number" id="5">
                 <field name="NUM">3948</field>
               </block>
             </value>
             <next>
-              <block type="movement_stutter" id="428">
+              <block type="movement_stutter" id="6">
                 <next>
-                  <block type="robot_delay" id="431" inline="true">
+                  <block type="robot_delay" id="7" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="438">
+                      <block type="math_number" id="8">
                         <field name="NUM">3948</field>
                       </block>
                     </value>
-                    <next>
-                      <block type="oled_cleardisplay" id="545">
-                        <next>
-                          <block type="oled_drawtext" id="554">
-                            <field name="TEXT">pokemon</field>
-                            <next>
-                              <block type="oled_drawnumber" id="575" inline="true">
-                                <value name="NUMBER">
-                                  <block type="math_number" id="591">
-                                    <field name="NUM">300</field>
-                                  </block>
-                                </value>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
                   </block>
                 </next>
               </block>
@@ -50,7 +32,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="405"></block>
+      <block type="movement_stop" id="9"></block>
     </next>
   </block>
 </xml>
